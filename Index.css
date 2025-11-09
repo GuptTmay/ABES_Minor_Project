@@ -195,7 +195,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .product_image {
@@ -211,5 +211,39 @@ footer {
 }
 
 .product_details {
-  
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  padding: 40px;
+}
+
+.product_details h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.product_details p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.product_details span {
+  font-weight: bold;
+  color: #ff4500;
+  font-size: 18px;
+}
+
+.product_details button {
+  padding: 10px 20px;
+  background-color: #ff4500;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.product_details_footer a {
+  margin-left: 180px;
 }
